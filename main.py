@@ -75,7 +75,7 @@ def detect_department(user_question):
             if keyword in user_question:
                 return dept_key
 
-    return "general"  # ✅ FIXED
+    return "general"
 
 
 def send_email(to_email, subject, body):
@@ -114,10 +114,10 @@ def save_json(filename, entry):
 def manual_redirect(user_question, score):
     dept_key = detect_department(user_question)
 
-    # ✅ SAFE FALLBACK (no crash ever)
+    
     dept = DEPARTMENTS.get(dept_key, DEPARTMENTS["general"])
 
-    print(f"📌 Redirecting to {dept['name']}")
+    print(f"Redirecting to {dept['name']}")
 
     subject = "A new question needs review"
     body = f"""
@@ -151,8 +151,8 @@ def auto_responder(user_question):
     result = get_answer(user_question)
 
     if result["status"] == "found":
-        print(f"\n✅ Automatic Answer (Confidence: {result['score']:.1f}%):")
-        print(f"👉 {result['answer']}\n")
+        print(f"\n Automatic Answer (Confidence: {result['score']:.1f}%):")
+        print(f"{result['answer']}\n")
         logging.info(f"Answered automatically | Score: {result['score']:.1f}")
 
     else:
