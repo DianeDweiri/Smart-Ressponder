@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "answer": "Click on 'Forgot Password' on the login page."
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "Send us an email at support@company.com."
+  },
+  {
+    "question": "What are your working hours?",
+    "answer": "We operate from Monday to Friday, 9 AM to 6 PM."
+  },
+  {
+    "question": "How do I create an account?",
+    "answer": "Click on 'Sign Up' and fill in your details to create a new account."
+  },
+  {
+    "question": "Can I change my email address?",
+    "answer": "Yes, you can update your email from your account settings."
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "Go to account settings and select 'Delete Account' or contact support."
+  },
+  {
+    "question": "Is my data secure?",
+    "answer": "Yes, we use industry-standard security measures to protect your data."
+  },
+  {
+    "question": "How long does it take to get a response from support?",
+    "answer": "Our support team usually responds within 24 hours."
+  },
+  {
+    "question": "Can I use the service on mobile?",
+    "answer": "Yes, our service is available on both desktop and mobile devices."
+  },
+  {
+    "question": "I didn’t receive the verification email. What should I do?",
+    "answer": "Check your spam folder or request a new verification email."
+  }
+]
